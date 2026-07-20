@@ -50,3 +50,55 @@ The analysis was conducted using the **Fitbit Fitness Tracker Data** publicly av
 
 Cleaned data was then imported into **Tableau Public** for analysis and visualization.
 
+## Summary of the Analysis
+
+The analysis explored user behavior patterns using daily, hourly, and aggregated activity data. Key areas examined include daily and hourly activity levels, sedentary behavior, correlation between steps and calories, and user activity segmentation.
+
+1) **Distribution of Users Activity Level**
+
+    The majority of users fall into the Low Activity (<5k steps) and Lightly Active (5k-7.5k steps) categories.
+  
+    ![Users Activity level](visualizations/activity_level.png)
+
+2) **Relationship Between Steps and Calories**
+
+   There is a strong positive correlation: the more steps users take, the more calories they burn.
+
+   ![Steps and Calories Corelation](visualizations/steps_vs_calories.png)
+
+3) **Average Steps by Day of Week**
+   
+    Users are most active on weekends, with Saturday and Sunday showing the highest average steps. Activity is lowest mid-week.
+
+    ![Average steps day of the week](visualizations/average_steps_weeky.png)
+
+4) **Average Calories Burned by Day of Week**
+   
+    Calories burned follow a similar pattern to steps, peaking on weekends and being relatively consistent throughout the week.
+
+    ![Average calories day of the week](visualizations/average_calories_weekly.png)
+
+5) **Average Steps Per Hour of the Day**
+   
+    Activity is lowest in the early morning and peaks in the evening hours (around 7 PM – 8 PM).
+
+    ![Average steps per hour of the day](visualizations/average_steps_hourly.png)
+
+6) **Average Calories Burned Per Hour of the Day**
+   
+   Calories burned follow a similar hourly pattern, with peaks in the evening.
+
+   ![Average calories per hour of the day](visualizations/average_calories_hourly.png)
+
+7) **Active vs Sedentary Minutes by Day of the Week**
+
+    Users spend significantly more time being sedentary than active on every day of the week.
+
+    ![Active vs sedentary minutes](visualizations/active_vs_sedentary.png)
+
+8) **Distribution of Daily Step Count**
+
+    Most days have step counts between 0 to 8,000 steps, with very few days exceeding 12,000 steps.
+
+    ![daily step count histogram](visualizations/distribution_stepcount.png)
+
