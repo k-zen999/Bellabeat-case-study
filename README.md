@@ -132,4 +132,4 @@ This analysis of Fitbit smart device data provided valuable insights into user b
 By leveraging these insights, Bellabeat can develop more targeted marketing strategies, improve product features, and better meet the wellness needs of its female customers.
 The project successfully demonstrated the end-to-end data analysis process - from data cleaning and exploration to visualization and recommendation - as part of the Google Data Analytics Professional Certificate Capstone.
 
-***Author: Zaina Khanum***
+***Zaina Khanum***
