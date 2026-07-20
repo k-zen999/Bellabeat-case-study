@@ -64,7 +64,7 @@ The analysis explored user behavior patterns using daily, hourly, and aggregated
 
    There is a strong positive correlation: the more steps users take, the more calories they burn.
 
-   ![Steps and Calories Corelation](visualizations/steps_vs_calories.png)
+   ![Steps and Calories Correlation](visualizations/steps_vs_calories.png)
 
 3) **Average Steps by Day of Week**
    
