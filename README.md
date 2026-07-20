@@ -6,7 +6,7 @@
 
 
 
-### Business Task Summary
+## Business Task Summary
 
 **About the company**: Bellabeat is a high-tech manufacturer of beautifully designed smart health products targeted specifically at women.
 
@@ -20,7 +20,7 @@ Bellabeat aims to become a major player in the global smart device market. To ac
 
 **Role**: As a Junior Data Analyst on the Bellabeat marketing team, this analysis focuses on transforming raw Fitbit usage data into actionable marketing intelligence.
 
-### Data Sources
+## Data Sources
 
 The analysis was conducted using the **Fitbit Fitness Tracker Data** publicly available on [Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit).
 
