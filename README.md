@@ -30,9 +30,9 @@ The analysis was conducted using the **Fitbit Fitness Tracker Data** publicly av
 - **Data Type**: Daily, hourly, and minute-level activity, sleep, and weight logs
 
 **Main Files Used:**
-- `dailyActivity_merged.csv` — Primary file (steps, distance, calories, active minutes)
-- `hourlySteps_merged.csv` — For hourly activity patterns
-- `hourlyCalories_merged.csv` — For Calorie tracking
+- `dailyActivity_merged.csv` - Primary file (steps, distance, calories, active minutes)
+- `hourlySteps_merged.csv` - For hourly activity patterns
+- `hourlyCalories_merged.csv` - For Calorie tracking
 
 **Note**: The dataset is from 2016 and represents a small sample of Fitbit users. Limitations include potential sampling bias and short observation period. Sleep and weight data were available but not the primary focus of this analysis.
 
@@ -42,8 +42,8 @@ The analysis was conducted using the **Fitbit Fitness Tracker Data** publicly av
 
 **Cleaning Steps:**
 - Checked and removed duplicate rows (none found)
-- Formatted `ActivityDate` column as proper Date type (=TEXT(ActivityDate, "dddd"))
-- Removed invalid records where `TotalSteps = 0` and `Calories = 0` (5 rows removed — days device was not worn)
+- Formatted `ActivityDate` column as proper Date type
+- Removed invalid records where `TotalSteps = 0` and `Calories = 0` (5 rows removed - days device was not worn)
 - Created two new calculated columns:
   - `DayOfWeek` using formula: `=TEXT(ActivityDate, "dddd")`
   - `TotalActiveMinutes` using formula: `=SUM(VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes)`
